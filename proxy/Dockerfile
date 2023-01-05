@@ -2,7 +2,7 @@
 #
 # License found in the LICENSE file in the root directory
 # of this source tree.
-FROM haproxy:lts-alpine
+FROM haproxytech/haproxy-alpine:2.0
 
 # Install dependencies for healthcheck support
 USER root
